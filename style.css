@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(186, 230, 255);
+   }
+
+div{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 5px;
+ 
+    }
+div div{
+  background-color: rgb(196, 255, 255);
+}
+.navbar{
+ background-color: rgb(196, 255, 211);
+ border-radius: 5px;
+ border: 1px solid rgb(0, 0, 0);
+}
+#msgr{
+    background-color: rgb(255, 178, 178);
+}
+#pt{
+    background-color: rgb(255, 203, 136);
+}
+#tk{
+    background-color: rgb(255, 254, 175);
+}
+#inst{
+    background-color: rgb(195, 255, 183);
+}
+#yt{
+    background-color: rgb(215, 233, 250);
+}
+
+#msgr a{
+color: rgb(224, 48, 48);
+}
+#pt a{
+color: rgb(253, 114, 34);
+}
+#tk a{
+color: rgb(235, 153, 1);
+}
+#inst a{
+color: rgb(23, 138, 0);
+}
+#yt a{
+color: rgb(1, 43, 82);
+}
+
+#linksgroup{
+    text-align: center;
+}
+.links{
+    display: inline;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    opacity: 0.7;
+    transform: 0.6;
+    font-weight: 800;
+    font-family: 'PT serif';
+}
+.links a{
+         text-decoration: none;
+
+}
+.links:hover{
+    opacity: 100;
+    transition: 0.4s;
+    font-size: larger;
+    font-family:cursive
+}
+.banner{
+background-image: url(images/cloudz.jpg);
+background-size: cover;
+background-position: center;
+width: 100yw;
+height: 400px;
+}
+.bannertext{
+    color: rgb(97, 63, 63);
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: rgb(20, 72, 107);
+    font-size: 2em;
+}
+.bannertext a{
+    color: rgb(102, 63, 63);
+}
+.bannertext p{
+    color: rgb(97, 58, 53);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
